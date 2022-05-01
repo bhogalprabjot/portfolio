@@ -1,6 +1,14 @@
+@import "../../global.scss";
+
 .intro {
     background-color: white;
-    // display: flex;
+    display: flex;
+ 
+    @include mobile{
+        flex-direction: column;
+        align-items: center ;
+    }
+
     .right {
         // height: 100vh;
         width: 100%;

@@ -1,1 +1,10 @@
 $mainColor: #3E065F;
+
+$width: 786px;
+
+@mixin mobile {
+    @media (max-width: #{$width}) {
+       @content
+
+    }
+}
